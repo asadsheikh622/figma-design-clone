@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: 'Space Grotesk', monospace;
+    padding: 30px;
+    margin: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+
+}
+
+.lh {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+}
+
+.heading {
+    font-size: 24px;
+    width: 170.62px;
+    height: 28.56px;
+    font: size 16px;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav ul li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-button {
+    width: 231px;
+    height: 68px;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 786px) {
+    .nav {
+        display: none;
+    }
+
+    .header-button {
+        width: 150px;
+        height: 40px;
+        border-radius: 40;
+    }
+}
+
+
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main1-text {
+    width: 531px;
+    height: 481px;
+    padding-top: 0%;
+}
+
+.main1-heading {
+    font-size: 60px;
+    width: 531px;
+    height: 231px;
+    font-weight: 500px;
+}
+
+.main1-para {
+    font-size: 20px;
+    width: 498px;
+    height: 112px;
+    font-weight: 400px;
+}
+
+.main1-button {
+    width: 264px;
+    height: 68px;
+    font-size: 20px;
+    font-weight: 400px;
+    background-color: rgba(25, 26, 35, 1);
+    border-radius: 14px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+
+.benner {
+    width: 600.46px;
+    height: 515px;
+}
+
+@media only screen and (max-width: 786px) {
+    .benner {
+        display: none;
+    }
+
+    .main1 {
+        align-items: center;
+    }
+}
+
+
+
+.company-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 786px) {
+    .company-logo {
+        display: block;
+        align-items: center;
+    }
+
+
+}
+
+.services {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.h2services {
+    width: 164px;
+    height: 51px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: rgba(185, 255, 102, 1);
+    padding: 5px;
+}
+
+.pservices {
+    width: 580px;
+    height: 46px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 22px;
+
+}
+
+@media only screen and (max-width: 786px) {}
+
+.Services {
+    display: block;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+    background-color: rgba(243, 243, 243, 1);
+}
+
+
+
+.cardin h3 {
+
+    background-color: rgba(185, 255, 102, 1);
+}
+
+.cardin img {
+    margin-top: 30px;
+    padding-top: 29px;
+}
+
+.white {
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+    background-color: rgba(185, 255, 102, 1);
+}
+
+.cardin2 h3 {
+
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cardin2 img {
+    margin-top: 30px;
+    padding-top: 29px;
+}
+
+.card3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+    background-color: rgba(25, 26, 35, 1);
+
+
+}
+
+.cardin2 h3 {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+    background-color: rgba(243, 243, 243, 1);
+
+}
+
+.black {
+    color: rgba(25, 26, 35, 1);
+    padding: 10px;
+}
+
+.card5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+    background-color: rgba(185, 255, 102, 1);
+
+}
+
+.cardin2 h3 {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+    background-color: rgba(25, 26, 35, 1);
+
+}
+
+@media only screen and (max-width: 786px) {}
+
+
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+    gap: 275px;
+    background-color: rgba(243, 243, 243, 1);
+    border-radius: 45px;
+    margin-top: 100px;
+    padding: 40px;
+    width: auto;
+    height: 300px;
+}
+
+.frame-text {
+    width: 500px;
+    height: 227px;
+    padding-top: 0%;
+}
+
+.frame-heading {
+    font-size: 30px;
+    width: 500px;
+    height: 38px;
+    font-weight: 500px;
+}
+
+.frame-para {
+    font-size: 18px;
+    width: 500px;
+    height: 69px;
+    font-weight: 400px;
+}
+
+.frame-button {
+    width: 288px;
+    height: 68px;
+    font-size: 20px;
+    font-weight: 400px;
+    background-color: rgba(25, 26, 35, 1);
+    border-radius: 14px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+
+.frame-img {
+    width: 359px;
+    height: 394.27px;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 786px) {
+    .frame {
+        overflow: scroll
+    }
+
+    ;
+}
+
+
+.h2services1 {
+    width: 265px;
+    height: 51px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: rgba(185, 255, 102, 1);
+    padding: 5px;
+}
+
+.resturant {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    margin-top: 40px;
+    padding: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(25, 26, 35, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 45px;
+
+}
+
+.resturant p {
+    font-size: px;
+}
+
+.resturant a {
+    color: rgba(185, 255, 102, 1);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.resturant img {
+    position: relative;
+    top: 10px;
+}
+
+.h2services2 {
+    width: 412px;
+    height: 51px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: rgba(185, 255, 102, 1);
+    padding: 5px;
+}
+
+.Consultation {
+    margin-top: 40px;
+    padding: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(185, 255, 102, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 45px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+
+}
+
+.Consultation-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.Consultation-text h1 {
+    width: 65px;
+    height: 77px;
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.Consultation-text h3 {
+    width: 612px;
+    height: 38px;
+    font-size: 30px;
+    font-weight: 400px;
+    padding: 15px;
+    margin: 0%;
+
+}
+
+.Consultation-text img {
+    width: 58px;
+    height: 58px;
+    position: relative;
+    left: 300px;
+}
+
+
+.Consultation-text1{
+     display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: rgba(243, 243, 243, 1);
+     margin-top: 40px;
+    padding: 30px;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 1);
+     border-radius: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(25, 26, 35, 1);
+
+}
+.Consultation-text1 h1 {
+    width: 65px;
+    height: 77px;
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+
+}
+.Consultation-text1 h3 {
+    width: 612px;
+    height: 38px;
+    font-size: 30px;
+    font-weight: 400px;
+    padding: 15px;
+    margin: 0%;
+
+}
+
+.Consultation-text1 img{
+ width: 58px;
+    height: 58px;
+    position: relative;
+    left: 300px;
+}
+.h2services3{
+    width: 115px;
+    height: 51px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: rgba(185, 255, 102, 1);
+    padding: 5px;}
