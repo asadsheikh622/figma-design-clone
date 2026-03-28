@@ -60,10 +60,10 @@ header {
     }
 
     .header-button {
-        width: 150px;
-        height: 40px;
-        border-radius: 40;
+       display: none;
     }
+   
+    
 }
 
 
@@ -651,11 +651,7 @@ transform:rotate(45deg);
 
 }
 
-.client{
 
-/* margin-top:50px; */
-
-}
 
 .client h4{
 
@@ -1050,6 +1046,314 @@ hr {
 
     .footer-bottom a {
         padding: 5px 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   TABLET (max-width: 992px)
+========================= */
+@media only screen and (max-width: 992px) {
+
+    body {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .main1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main1-text,
+    .main1-heading,
+    .main1-para {
+        width: 100%;
+        height: auto;
+    }
+
+    .main1-heading {
+        font-size: 40px;
+    }
+
+    .benner {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pservices {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .frame {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .frame-text,
+    .frame-heading,
+    .frame-para {
+        width: 100%;
+        height: auto;
+    }
+
+    .frame-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .resturant {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* .Consultation-text,
+    .Consultation-text1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Consultation-text img,
+    .Consultation-text1 img {
+        position: static;
+        margin-top: 10px;
+    } */
+
+/* ================= CONSULTATION FIX ================= */
+
+/* Desktop fix (optional better alignment) */
+.Consultation-text,
+.Consultation-text1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.Consultation-text h1,
+.Consultation-text1 h1 {
+    font-size: 50px;
+}
+
+.Consultation-text h3,
+.Consultation-text1 h3 {
+    width: auto;
+    font-size: 22px;
+    padding: 0;
+}
+
+.Consultation-text img,
+.Consultation-text1 img {
+    position: static; /* ❌ remove left:300px */
+}
+
+
+/* ================= MOBILE ================= */
+@media only screen and (max-width: 600px) {
+
+    .Consultation,
+    .Consultation-text1 {
+        padding: 20px;
+    }
+
+    .Consultation-text,
+    .Consultation-text1 {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .Consultation-text h1,
+    .Consultation-text1 h1 {
+        font-size: 40px;
+    }
+
+    .Consultation-text h3,
+    .Consultation-text1 h3 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .Consultation-text img,
+    .Consultation-text1 img {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-right {
+        right: 0;
+    }
+
+}
+
+
+/* =========================
+   MOBILE (max-width: 600px)
+========================= */
+@media only screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header-button {
+        width: 100%;
+        height: 45px;
+    }
+
+    .main1-heading {
+        font-size: 28px;
+    }
+
+    .main1-para {
+        font-size: 16px;
+    }
+
+    .main1-button {
+        width: 100%;
+        height: auto;
+    }
+
+    .company-logo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        text-align: center;
+    }
+
+    .h2services,
+    .h2services1,
+    .h2services2,
+    .h2services3,
+    .h2services4,
+    .h2services5 {
+        font-size: 24px;
+        width: auto;
+        height: auto;
+    }
+}
+/* 
+    .testimonial-card {
+        min-width: 260px;
+    }
+
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+
+    .subscribe-box {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .subscribe-box input,
+    .subscribe-box button {
+        width: 100%;
+        height: 50px;
+    } */
+
+
+    /* ================= MOBILE FIX (max-width: 600px) ================= */
+@media only screen and (max-width: 600px) {
+
+    /* ===== REVIEWS (Testimonials) ===== */
+    .testimonial-slider {
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .testimonial-card {
+        display: none;
+    }
+
+    .testimonial-card:first-child {
+        display: block;
+        min-width: 100%;
+    }
+
+    /* dots & arrows optional hide */
+    .testimonial-controls {
+        display: none;
+    }
+
+
+    /* ===== CONTACT FORM ===== */
+    .contact-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-right {
+        display: none; /* 👈 right side image hide */
+    }
+
+    .contact-left {
+        width: 100%;
     }
 
 }
