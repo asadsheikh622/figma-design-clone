@@ -134,8 +134,7 @@ header {
 
 @media only screen and (max-width: 786px) {
     .company-logo {
-        display: block;
-        align-items: center;
+        display: hidden;
     }
 
 
