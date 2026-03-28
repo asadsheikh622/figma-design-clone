@@ -134,7 +134,7 @@ header {
 
 @media only screen and (max-width: 786px) {
     .company-logo {
-        display: hidden;
+        display: none;
     }
 
 
@@ -144,8 +144,8 @@ header {
     display: flex;
     justify-content: flex-start;
     gap: 40px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
 
 }
 
@@ -1371,10 +1371,7 @@ hr {
     }
 
     .company-logo {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        text-align: center;
+        display: none;
     }
 
     .h2services,
